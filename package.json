@@ -28,6 +28,7 @@
   },
   "keywords": [
     "karma-plugin",
+    "karma-framework",
     "karma",
     "test",
     "tdd",
