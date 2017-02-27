@@ -15,18 +15,18 @@ Install using [npm][]:
 
 ## Usage
 
-Add `jasmine-diff` (along with `jasmine`) to the `"frameworks"` section of your
-karma configuration file:
+Add `"jasmine-diff"` (along with `"jasmine"`) to the `frameworks` section of
+your karma configuration file:
 
 ```js
+// karma.conf.js
 module.exports = function (config) {
   config.set({
     // Add jasmine-diff AFTER jasmine
     frameworks: ['jasmine', 'jasmine-diff'],
 
-    jasmineDiff: {
-      // Override default jasmine-diff options here
-    }
+    // Override default jasmine-diff options here
+    // jasmineDiff: {}
 
     // ... other settings
   })
@@ -38,7 +38,7 @@ the value of `colors`. If `colors` is `true`, jasmine-diff will be configured
 to use colors and inline diffs. If `false`, jasmine-diff will be configured to
 use no colors and unified diffs. To override auto-configuration, specify all
 desired [jasmine-diff options](https://github.com/jimf/jasmine-diff#available-options)
-via `jasmineDiff` in your karma configuration.
+via a `jasmineDiff` object in your karma configuration.
 
 ## License
 
@@ -53,4 +53,4 @@ MIT
 [dep-badge]: https://img.shields.io/david/jimf/karma-jasmine-diff.svg
 [dep-status]: https://david-dm.org/jimf/karma-jasmine-diff
 [Karma]: https://karma-runner.github.io/
-[Jasmine]: https://jasmine.github.io/
+[Jasmine Diff]: https://github.com/jimf/jasmine-diff
