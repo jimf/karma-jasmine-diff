@@ -37,7 +37,7 @@
     "karma": ">=0.9"
   },
   "dependencies": {
-    "jasmine-diff": "<=1.0.x"
+    "jasmine-diff": "0.1.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.15",
