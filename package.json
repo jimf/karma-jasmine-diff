@@ -1,6 +1,6 @@
 {
   "name": "karma-jasmine-diff",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Karma plugin to add diff output to standard Jasmine matchers",
   "author": "Jim Fitzpatrick",
   "license": "MIT",

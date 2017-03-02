@@ -40,6 +40,14 @@ use no colors and unified diffs. To override auto-configuration, specify all
 desired [jasmine-diff options](https://github.com/jimf/jasmine-diff#available-options)
 via a `jasmineDiff` object in your karma configuration.
 
+## Changelog
+
+#### 0.1.1
+- Fix jasmine-diff dependency to include patch releases
+
+#### 0.1.0
+- Initial release
+
 ## License
 
 MIT
